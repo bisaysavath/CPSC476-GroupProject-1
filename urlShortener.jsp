@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>URL Shortener</title>
 </head>
 <body>
+<a href="<c:url value="/login?logout" />">Logout</a>
 <%
 	if((Boolean)request.getAttribute("urlNull"))
 	{ %>
@@ -30,6 +31,9 @@
 	<a href= "<c:url value="<%=shortUrl %>" />" target="newtab"> <%=shortUrl %> </a>
 			
   <%} %>
+  
+  
+  
 	 
 	
 </body>
