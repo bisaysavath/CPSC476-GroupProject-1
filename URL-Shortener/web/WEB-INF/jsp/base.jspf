@@ -1,0 +1,2 @@
+<%@ page import="edu.fullerton.Ticket, edu.fullerton.Attachment"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
