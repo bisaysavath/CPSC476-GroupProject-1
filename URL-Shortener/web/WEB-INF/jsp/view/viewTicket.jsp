@@ -1,4 +1,4 @@
-
+<%@ page import="java.util.Map, edu.fullerton.Ticket, edu.fullerton.Attachment"%>
 <%
     String ticketId = (String)request.getAttribute("ticketId");
     Ticket ticket = (Ticket)request.getAttribute("ticket");

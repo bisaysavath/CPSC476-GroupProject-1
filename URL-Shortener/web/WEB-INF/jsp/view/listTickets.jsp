@@ -1,4 +1,4 @@
-<%@ page import="java.util.Map"%>
+<%@ page import="java.util.Map, edu.fullerton.Ticket"%>
 <%
     @SuppressWarnings("unchecked")
     Map<Integer, Ticket> ticketDatabase =
