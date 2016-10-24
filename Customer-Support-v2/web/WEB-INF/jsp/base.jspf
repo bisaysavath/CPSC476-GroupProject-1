@@ -1,0 +1,2 @@
+<%@ page import="cpsc_476_Project1.Ticket, cpsc_476_Project1.Attachment, java.util.Map" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
